@@ -10,10 +10,10 @@ Setup instructions:
    * <log> tags for any logs you want to keep
    * an <autoconnect> tag for the hub you want to connect to
    * <include> tags for general, opers, links, and modules
-   You may find it eaiser to copy and edit an existing configuration file.
+   You may find it easier to copy and edit an existing configuration file.
 5. Add a link block to links.conf. If you don't know your SSL fingerprint,
    either leave it out to add later or use 'certtool -i < cert.pem' and copy
-   the MD5 fingerprint.
+   the SHA1 fingerprint.
 6. Commit the changes:  git add .; git commit -m 'Add server'; git push
 7. Start up the ircd
 
