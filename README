@@ -3,7 +3,7 @@ Setup instructions:
 1. Check out this repository to inspircd/run/conf/qa-net
 2. Choose a server name; in this example, we will use irc1.
 3. Create conf/inspircd.conf containing:
-   <include executable="qa-net/remote-exec irc1">
+   <include executable="conf/qa-net/remote-exec irc1">
 4. Create irc1.conf. This needs to contain:
    * <server> and <admin> blocks
    * <bind> tags for ports you listen on
